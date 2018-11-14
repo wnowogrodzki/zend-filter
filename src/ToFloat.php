@@ -28,6 +28,6 @@ class ToFloat extends AbstractFilter
         }
         $value = (string) $value;
 
-        return (float) $value;
+        return (float) floatval($value);
     }
 }
